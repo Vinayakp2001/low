@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
 interface HeroSectionProps {
@@ -19,21 +20,33 @@ export function HeroSection({
   secondaryHref = "/services",
 }: HeroSectionProps) {
   return (
-    <section className="bg-background min-h-[88vh] flex items-center">
-      <div className="container-legal py-20">
+    <section className="relative min-h-[88vh] flex items-center overflow-hidden">
+      {/* Background image */}
+      <Image
+        src="/hero-bg.jpeg"
+        alt=""
+        fill
+        priority
+        className="object-cover object-center"
+        aria-hidden="true"
+      />
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
+
+      <div className="relative z-10 container-legal py-20">
         <div className="max-w-3xl">
           {/* Eyebrow */}
-          <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-6 animate-fade-in-up">
+          <p className="text-xs font-semibold uppercase tracking-widest text-amber-400 mb-6 animate-fade-in-up">
             Strategic Legal Advisory
           </p>
 
           {/* Headline — display serif */}
-          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.08] tracking-tight text-text-primary mb-6 animate-fade-in-up-delay-1">
+          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.08] tracking-tight text-white mb-6 animate-fade-in-up-delay-1">
             {headline}
           </h1>
 
           {/* Subtext */}
-          <p className="text-lg md:text-xl text-text-secondary leading-relaxed max-w-xl mb-10 animate-fade-in-up-delay-2">
+          <p className="text-lg md:text-xl text-white/80 leading-relaxed max-w-xl mb-10 animate-fade-in-up-delay-2">
             {subtext}
           </p>
 
@@ -48,7 +61,7 @@ export function HeroSection({
             </Link>
             <Link
               href={secondaryHref}
-              className="inline-flex items-center justify-center gap-2 border border-border text-text-secondary font-medium px-7 py-3.5 rounded-sm hover:border-accent hover:text-accent transition-colors text-sm"
+              className="inline-flex items-center justify-center gap-2 border border-white/40 text-white font-medium px-7 py-3.5 rounded-sm hover:border-white hover:text-white transition-colors text-sm"
             >
               {secondaryLabel}
             </Link>
@@ -56,7 +69,7 @@ export function HeroSection({
         </div>
 
         {/* Decorative rule */}
-        <div className="mt-20 w-16 h-px bg-border" aria-hidden="true" />
+        <div className="mt-20 w-16 h-px bg-white/20" aria-hidden="true" />
       </div>
     </section>
   );

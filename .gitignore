@@ -1,8 +1,27 @@
-node_modules
+# Dependencies
 node_modules
 
+# Next.js
 .next
-.env
-.env.local
+out
+
+# Python
+.venv
+venv
 __pycache__
 *.pyc
+*.pyo
+
+# Env files
+.env
+.env.local
+.env.*.local
+apps/studio/.env
+
+# Studio build output
+apps/studio/dist
+apps/studio/.sanity
+
+# Misc
+.DS_Store
+*.log
