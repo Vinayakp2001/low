@@ -32,14 +32,13 @@ export function IntroSection({
             </Link>
           </div>
 
-          {/* Logo mark */}
-          <div className="hidden md:flex items-center justify-center">
+          {/* Courtroom image */}
+          <div className="hidden md:block relative h-72 lg:h-96 rounded-sm overflow-hidden">
             <Image
-              src="/logo-wood.png"
-              alt="RSA The Law Firm — Rajneesh Sharma Associates"
-              width={380}
-              height={380}
-              className="w-full max-w-[380px] h-auto object-contain rounded-sm"
+              src="/courtroom.jpeg"
+              alt="Courtroom — RSA The Law Firm"
+              fill
+              className="object-cover object-center"
             />
           </div>
         </div>
