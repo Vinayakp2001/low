@@ -27,10 +27,10 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" aria-label="RSA The Law Firm — Home">
+            <Link href="/" aria-label="RSA-THE LAW FIRM — Home">
               <Image
                 src="/logo.png"
-                alt="RSA The Law Firm"
+                alt="RSA-THE LAW FIRM"
                 width={56}
                 height={56}
                 className="h-14 w-auto object-contain mb-3"
@@ -115,7 +115,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-dark-text/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-dark-text/40">
-          <p>© {year} RSA The Law Firm — Rajneesh Sharma Associates. All rights reserved.</p>
+          <p>© {year} RSA-THE LAW FIRM — Rajneesh Sharma Associates. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-dark-text/70 transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-dark-text/70 transition-colors">Terms of Service</Link>

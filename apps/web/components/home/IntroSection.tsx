@@ -9,7 +9,7 @@ interface IntroSectionProps {
 }
 
 export function IntroSection({
-  text = "RSATHE LAW FIRM is a litigation-focused practice dedicated to protecting the rights of individuals and businesses. We bring courtroom experience, strategic thinking, and relentless preparation to every case we take on.",
+  text = "RSA-THE LAW FIRM is a litigation-focused practice dedicated to protecting the rights of individuals and businesses. We bring courtroom experience, strategic thinking, and relentless preparation to every case we take on.",
   learnMoreHref = "/about",
 }: IntroSectionProps) {
   return (

@@ -54,10 +54,10 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
       >
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-border">
-          <Link href="/" onClick={onClose} aria-label="RSA The Law Firm — Home">
+          <Link href="/" onClick={onClose} aria-label="RSA-THE LAW FIRM — Home">
             <Image
               src="/logo.png"
-              alt="RSA The Law Firm"
+              alt="RSA-THE LAW FIRM"
               width={40}
               height={40}
               className="h-9 w-auto object-contain"

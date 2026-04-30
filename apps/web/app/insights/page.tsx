@@ -42,7 +42,7 @@ export default async function InsightsPage() {
             Insights
           </p>
           <h1 className="text-4xl md:text-5xl font-semibold text-text-primary tracking-tight max-w-2xl">
-            Legal Insights from RSATHE LAW FIRM
+            Legal Insights from RSA-THE LAW FIRM
           </h1>
           <p className="mt-4 text-lg text-text-secondary max-w-xl">
             Practical guidance on your rights — written in plain language so you know what to expect before you walk into court.

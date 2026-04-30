@@ -18,11 +18,11 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "RSA The Law Firm — Rajneesh Sharma Associates",
-    template: "%s | RSA The Law Firm",
+    default: "RSA-THE LAW FIRM — Rajneesh Sharma Associates",
+    template: "%s | RSA-THE LAW FIRM",
   },
   description:
-    "RSA The Law Firm — Rajneesh Sharma Associates. Experienced litigation attorneys handling civil, criminal, personal injury, family law, and employment disputes.",
+    "RSA-THE LAW FIRM — Rajneesh Sharma Associates. Experienced litigation attorneys handling civil, criminal, banking, DRT, consumer, and family law matters.",
   icons: {
     icon: "/logo.png",
     apple: "/logo.png",

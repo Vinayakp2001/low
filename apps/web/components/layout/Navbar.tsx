@@ -35,10 +35,10 @@ export function Navbar() {
       >
         <div className="container-legal flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" aria-label="RSA The Law Firm — Home">
+          <Link href="/" aria-label="RSA-THE LAW FIRM — Home">
             <Image
               src="/logo.png"
-              alt="RSA The Law Firm"
+              alt="RSA-THE LAW FIRM"
               width={48}
               height={48}
               className="h-10 w-auto object-contain"

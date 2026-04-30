@@ -11,11 +11,11 @@ interface ServiceItem {
 
 const placeholderServices: ServiceItem[] = [
   { title: "Civil Litigation", description: "Breach of contract, business disputes, property claims, and complex civil matters handled with precision.", slug: "civil-litigation" },
-  { title: "Criminal Defense", description: "Aggressive defense for misdemeanor and felony charges — protecting your rights from arrest through trial.", slug: "criminal-defense" },
-  { title: "Personal Injury", description: "Holding negligent parties accountable for accidents, medical malpractice, and wrongful death claims.", slug: "personal-injury" },
+  { title: "Criminal Defense", description: "Aggressive defense for criminal charges including NI Act cases — protecting your rights from arrest through trial.", slug: "criminal-defense" },
+  { title: "Banking & DRT Cases", description: "Debt Recovery Tribunal (DRT) matters, banking disputes, loan recovery cases, and NPA litigation for banks and borrowers.", slug: "banking-drt" },
+  { title: "Consumer Cases", description: "Consumer Forum, State Commission, and NCLT matters — fighting for your rights against deficient services and unfair trade practices.", slug: "consumer-cases" },
   { title: "Family Law", description: "Divorce, child custody, support, and asset division handled with care and strategic clarity.", slug: "family-law" },
-  { title: "Employment Disputes", description: "Wrongful termination, discrimination, harassment, and wage claims for employees and employers.", slug: "employment-disputes" },
-  { title: "Real Estate Disputes", description: "Landlord-tenant conflicts, title disputes, construction defects, and property litigation.", slug: "real-estate-disputes" },
+  { title: "GST & Tribunal Matters", description: "GST disputes, tribunal appearances, and regulatory matters handled before relevant authorities in Rajasthan.", slug: "gst-tribunal" },
 ];
 
 interface ServicesSectionProps {

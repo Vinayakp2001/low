@@ -13,7 +13,7 @@ interface HeroSectionProps {
 
 export function HeroSection({
   headline = "Relentless Advocacy. Proven Results.",
-  subtext = "RSATHE LAW FIRM fights for individuals and businesses in court — from civil disputes and criminal defense to personal injury and family law.",
+  subtext = "RSA-THE LAW FIRM fights for individuals and businesses in court — from civil disputes and criminal defense to personal injury and family law.",
   ctaLabel = "Request a Consultation",
   ctaHref = "/consultation",
   secondaryLabel = "Our Practice Areas",

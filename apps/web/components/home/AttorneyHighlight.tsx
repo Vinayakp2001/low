@@ -15,8 +15,14 @@ interface AttorneyHighlightProps {
 export function AttorneyHighlight({
   name = "Rajneesh Sharma",
   title = "Advocate — Rajasthan High Court, Jaipur",
-  bio = "With extensive courtroom experience at the Rajasthan High Court and Sessions Court, Rajneesh Sharma brings meticulous preparation and aggressive advocacy to every case. He is known for his results-driven approach across civil, criminal, and family law matters.",
-  credentials = ["Advocate, Rajasthan High Court", "District & Sessions Court, Jaipur", "RSA The Law Firm — Founder"],
+  bio = "An advocate with 21 years of practice across Rajasthan High Court, Tribunals, DRT, NCLT, GST, Consumer Forum, State Commission, and District & Sessions Court Jaipur. Panel Lawyer of Indian Bank, Punjab National Bank, Union Bank of India, and JVVNL.",
+  credentials = [
+    "21 Years of Practice",
+    "Rajasthan High Court & Tribunals",
+    "Panel Lawyer — Indian Bank, PNB, Union Bank, JVVNL",
+    "DRT · NCLT · GST · Consumer Forum",
+    "RSA-THE LAW FIRM — Founder",
+  ],
   profileHref = "/team/rajneesh-sharma",
 }: AttorneyHighlightProps) {
   return (

@@ -20,13 +20,13 @@ const fallbackAttorney = {
   name: "Rajneesh Sharma",
   title: "Advocate — Rajasthan High Court, Jaipur",
   shortBio:
-    "Rajneesh Sharma is an experienced advocate practising at the Rajasthan High Court and District & Sessions Court, Jaipur. He brings meticulous preparation and aggressive courtroom advocacy to every matter he handles.",
+    "An advocate with 21 years of practice at Rajasthan High Court, Tribunals, DRT, NCLT, GST, Consumer Forum, State Commission, and District & Sessions Court Jaipur. Panel Lawyer of Indian Bank, Punjab National Bank, Union Bank of India, and JVVNL.",
   fullBio:
-    "Before founding RSA The Law Firm, Rajneesh Sharma built a strong litigation practice across civil, criminal, and family law. He has appeared before the Rajasthan High Court, District & Sessions Court, and various tribunals. His practice is known for thorough case preparation and a client-first approach.",
-  expertiseAreas: ["Civil Litigation", "Criminal Defense", "Family Law", "High Court Practice", "Sessions Court"],
-  barAdmissions: ["Rajasthan High Court, Jaipur", "District & Sessions Court, Jaipur"],
+    "Rajneesh Sharma has been practicing law for over 21 years, appearing before the Rajasthan High Court, various Tribunals, DRT, NCLT, GST authorities, Consumer Forum, State Commission, and District & Sessions Court Jaipur. His work spans Criminal Cases, Banking Cases, Civil Cases, NI Act cases, Consumer Cases, and more. He serves as Panel Lawyer for Indian Bank, Punjab National Bank, Union Bank of India, and JVVNL.",
+  expertiseAreas: ["Criminal Cases", "Banking Cases", "Civil Cases", "NI Act Cases", "Consumer Cases", "DRT", "NCLT", "GST", "High Court Practice"],
+  barAdmissions: ["Rajasthan High Court, Jaipur", "District & Sessions Court, Jaipur", "DRT · NCLT · GST · Consumer Forum"],
   education: [
-    { degree: "LL.B.", institution: "Rajasthan University", year: 2005 },
+    { degree: "LL.B.", institution: "Rajasthan University", year: 2003 },
   ],
 };
 
@@ -72,7 +72,7 @@ export default async function AboutPage() {
             Advocates Who Fight for You
           </h1>
           <p className="mt-4 text-lg text-text-secondary max-w-xl">
-            RSA The Law Firm is a litigation-focused practice dedicated to protecting the rights of individuals and businesses before the Rajasthan High Court and Sessions Courts.
+            RSA-THE LAW FIRM is a litigation-focused practice dedicated to protecting the rights of individuals and businesses before the Rajasthan High Court and Sessions Courts.
           </p>
         </PageContainer>
       </Section>

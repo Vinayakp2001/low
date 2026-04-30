@@ -36,7 +36,7 @@ export default async function ServicesPage() {
             Legal Services for Individuals &amp; Businesses
           </h1>
           <p className="mt-4 text-lg text-text-secondary max-w-xl">
-            RSATHE LAW FIRM handles litigation across a broad range of practice areas — in court and at the negotiating table.
+            RSA-THE LAW FIRM handles litigation across a broad range of practice areas — in court and at the negotiating table.
           </p>
         </PageContainer>
       </Section>
